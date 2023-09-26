@@ -4,8 +4,6 @@ date: 2018-12-28T00:09:00+03:00
 draft: false
 summary: "This is the story of the Ice Cream War that took place between my little brother and I when we were kids."
 ---
-## The Ice Cream War
-
 This is the story of the Ice Cream War that took place between my little brother and I when we were kids.
 
 I was born into a family of four brothers with myself in the middle, two elder ones and a younger one. The four of us grew up in Kuwait, a small country in the Middle East. Now as far as I’m concerned, Kuwait has one of the best Ice cream companies in the world: the Kuwait Danish Dairy or KDD for short.

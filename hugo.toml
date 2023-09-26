@@ -7,7 +7,7 @@ theme = 'm10c'
   author = "w-k-s"
   description = "Stories about my life"
   menu_item_separator = " - "
-  avatar = "avatar.jpeg"
+  avatar = "https://avatars.githubusercontent.com/u/3167727"
 
 [menu]
   [[menu.main]]
@@ -21,10 +21,14 @@ theme = 'm10c'
     url = "/about/"
     weight = 2
 
-#[[params.social]]
-#	icon = "github"
-#	name = "Github"
-#	url = "https://github.com/w-k-s"
+[[params.social]]
+	icon = "github"
+	name = "Github"
+	url = "https://github.com/w-k-s"
+[[params.social]]
+  icon = "linkedin"
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/waqqas-sheikh"
 
 [params.style]
   darkestColor = "#000000"
