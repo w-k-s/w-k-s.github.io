@@ -1,4 +1,34 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://w-k-s.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'W K S'
 theme = 'm10c'
+
+[params]
+  author = "w-k-s"
+  description = "Stories about my life"
+  menu_item_separator = " - "
+  avatar = "avatar.jpeg"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+#[[params.social]]
+#	icon = "github"
+#	name = "Github"
+#	url = "https://github.com/w-k-s"
+
+[params.style]
+  darkestColor = "#000000"
+  darkColor = "#1e1e1e"
+  lightColor = "#f2f2f2"
+  lightestColor = "#fff"
+  primaryColor = "#fff" # The border arounf the avatar
