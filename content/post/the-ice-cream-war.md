@@ -1,8 +1,11 @@
 ---
 title: "The Ice Cream War"
 date: 2018-12-28T00:09:00+03:00
+tags:
+- "Personal"
+comments: false
 draft: false
-summary: "This is the story of the Ice Cream War that took place between my little brother and I when we were kids."
+description: "This is the story of the Ice Cream War that took place between my little brother and I when we were kids."
 ---
 This is the story of the Ice Cream War that took place between my little brother and I when we were kids.
 

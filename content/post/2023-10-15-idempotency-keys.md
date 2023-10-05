@@ -1,8 +1,17 @@
 ---
 title: "Idempotency Keys"
 date: 2023-10-05T15:19:00+03:00
+tags:
+- "Engineering"
+- "Educational"
+comments: false
+toc: true
+tocOpen: false
+meta:
+- tags
+- date
 draft: false
-summary: "What are idempotency keys and how to use them"
+description: "What are idempotency keys and how to use them"
 ---
 
 For the last 2 years, I've been working on the backend of a digital bank. One of the important concepts that I learned was about **Idempotency Keys**. In this article, I will talk about:

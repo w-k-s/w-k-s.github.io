@@ -1,38 +1,45 @@
 baseURL = 'https://w-k-s.github.io/'
 languageCode = 'en-us'
 title = 'W K S'
-theme = 'm10c'
+theme = "binario"
 
-[params]
-  author = "w-k-s"
-  description = "Stories about my life"
-  menu_item_separator = " - "
+[Author]
+  name = "Waqqas"
+  bio = "Tech blog + Stories about my life"
   avatar = "https://avatars.githubusercontent.com/u/3167727"
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 2
 
-[[params.social]]
-	icon = "github"
-	name = "Github"
-	url = "https://github.com/w-k-s"
-[[params.social]]
-  icon = "linkedin"
-  name = "LinkedIn"
-  url = "https://linkedin.com/in/waqqas-sheikh"
+[Params]
+  description = "Tech blog + Stories about my life" # Site Description. Used in meta description
+  copyright = "Waqqas Sheikh" # Copyright holder, otherwise will use .Site.Title
+  opengraph = false # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  columns = 2 # Set the number of cards columns. Possible values: 1, 2, 3
+  mainSections = ["post","about"] # Set main page sections
+  dateFormat = "January 02, 2006" # Change the format of dates
+  colorTheme = "dark-blue" # dark-green, dark-blue, dark-red, dark-violet
+  mainMenuAlignment = "right" # Align main menu (desktop version) to the right side
+  authorbox = true # Show authorbox at bottom of single pages if true
+  comments = false # Enable comments for all site pages
+  related = true # Enable Related content for single pages
+  relatedMax = 5 # Set the maximum number of elements that can be displayed in related block. Optional
+  mathjax = false # Enable MathJax for all site pages
+  hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
 
-[params.style]
-  darkestColor = "#000000"
-  darkColor = "#1e1e1e"
-  lightColor = "#f2f2f2"
-  lightestColor = "#fff"
-  primaryColor = "#fff" # The border arounf the avatar
+[Params.Entry]
+  meta = ["date", "categories", "tags"] # Enable meta fields in given order
+  toc = true # Enable Table of Contents
+  tocOpen = true # Open Table of Contents block. Optional
+
+[Params.Featured]
+  previewOnly = false # Show only preview featured image
+
+[Params.Breadcrumb]
+  enable = true # Enable breadcrumb block globally
+  homeText = "w-k-s" # Home node text
+
+[Params.Social]
+  linkedin = "waqqas-sheikh"
+  github = "w-k-s"
+  stackoverflow = "821110"
