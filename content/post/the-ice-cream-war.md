@@ -5,6 +5,9 @@ tags:
 - "Personal"
 comments: false
 draft: false
+meta:
+- date
+- tags
 description: "This is the story of the Ice Cream War that took place between my little brother and I when we were kids."
 ---
 This is the story of the Ice Cream War that took place between my little brother and I when we were kids.
