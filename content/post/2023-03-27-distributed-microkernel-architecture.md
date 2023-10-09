@@ -12,21 +12,13 @@ meta:
 draft: false
 ---
 
-We were contracted to build a booking system that enabled hauliers (truckers) to pick up containers assigned to them from a sea port.
+We were contracted to build an appointment booking system that enabled hauliers (truckers) to pick up containers assigned to them from a sea port.
 
 The tricky bit was that the contracting company operated a number of ports, and for legacy reasons, different ports had different strategies to assign a container to be picked up by a particular haulier.
 
-Let me explain this with an example; we'll consider two sea ports: A and B.
+For example: in one port, you'd assign a haulier by entering their username. In another port, you might share the booking reference.
 
-In Port A, when a shipper ships a container, they receive a PIN code that they pass on to the haulier. The haulier then logs on to the booking system, enters the PIN, is able to see the container and book a time slot to pick it up.
-
-![PIN Sequence Diagram](/Distributed-Microkernal-Architecture/PIN-Sequence-Diagram.png)
-
-In Port B, the shipper and haulier must both be registered on the platform. The shipper designates the haulier by entering their username.
-
-![Registration Sequence Diagram](/Distributed-Microkernal-Architecture/Registration-Sequence-Diagram.png)
-
-In whatever way containers were assigned to hauliers, an booking had to be created in the backend so that it could be verified at the port gate.
+In whatever way containers were assigned to hauliers, an booking had to be created in the backend so that it would show up at the port gate.
 
 ## High Level Solution
 
@@ -38,11 +30,7 @@ The architecture is illustrated in the diagram below:
 
 ![Microkernal Architecture Diagram](/Distributed-Microkernal-Architecture/Architecture-Diagram.png)
 
-The Core system would use a Document Store (e.g. MongoDB) since different nomination systems at different ports meant the attributes that needed to be stored varied.
-
-The Sequence diagram of creating a booking in Port A would then look something like this:
-
-![Microkernal Sequence Diagram](/Distributed-Microkernal-Architecture/Sequence-Diagram.png)
+The Core system would use a Document Store (e.g. MongoDB) since different nomination systems at different ports meant different attributes needed to be stored.
 
 ## Outcome
 
