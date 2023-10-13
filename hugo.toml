@@ -40,6 +40,7 @@ theme = "binario"
   homeText = "w-k-s" # Home node text
 
 [Params.Social]
+  email = "blog@wks.anonaddy.com"
   linkedin = "waqqas-sheikh"
   github = "w-k-s"
   stackoverflow = "821110"
