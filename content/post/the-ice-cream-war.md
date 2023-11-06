@@ -1,13 +1,13 @@
 ---
 title: "The Ice Cream War"
 date: 2018-12-28T00:09:00+03:00
-tags:
-- "Personal"
+categories:
+- "Stories"
 comments: false
 draft: false
 meta:
 - date
-- tags
+- categories
 description: "This is the story of the Ice Cream War that took place between my little brother and I when we were kids."
 ---
 This is the story of the Ice Cream War that took place between my little brother and I when we were kids.
