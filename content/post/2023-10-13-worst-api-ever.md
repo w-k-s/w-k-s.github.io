@@ -89,44 +89,16 @@ Getting rid of that mess felt _SO_ good! Suddenly the code became readable and e
 
 ## Key Takeaways
 
-I guess the key takeaways are:
+I think this story highlights the importance of 2 things:
 
-1. It's worth taking the time to come up with the right abstraction.
+**Investing time to come up with the right abstractions**: 
 
-2. Another takeaway could be to document the process that I'd recommend other developers to follow if they have a similar refactor they want to do in a project they're working on. 
+This involves understanding the domain and its terminology so that you can use it correctly in the code. 
 
-	Not sure if this is right or even useful, but I'll write it anyway.
+When I worked in Banking, studying the ISO 20022 standard really helped me come up with better abstractions.
 
-**Step 1: Understand the requirement of the API** 
+Not all developers have worked in Banking, so I feel this story is a good one to help communicate developers the value of understanding and using domain terminology
 
-- Look at the API and try to express in human understandable language what it's trying to do.
-- In the example above, we saw that the API provides the **available** **timeslots** for the **upcoming week**
+**API-First development approach**
 
-**Step 2: Design the abstraction** 
-
-- At this stage, design the abstraction using the terms you identified in the previous step.
-
-**Step 3: Validate the abstraction** 
-
-- Based on your experience  using the API, determine if the abstraction you've come up with would actually make the code more readable and self-documenting.
-
-**Step 4: Present the proposal to the team**
-
-- For larger refactors, it's a good idea to present your proposal to the wider team so that they can validate that it will work on a wider scale + they can provide additional feedback.
-
-**Stage 5: Write an ADR**
-
-- Once your team has agreed on a strategy, document the plan in [ADR](https://adr.github.io/)
-
-**Stage 6: Create a tech debt ticket**
-
-- I've had several experiences where developers identify code that needs to be refactored, so a tech-debt ticket gets added in JIRA.
-- These tickets are woefully devoid of detail and strategy. 
-- The refactors are poorly thought-out, implemented in a rush and in the end don't provide meaningful improvements.
-
-- However, In the process described above, a tech debt ticket is **NOT** created until you have a clear strategy documented,  presented and agreed upon by the team.
-
-**Stage 7: Implement & Test** 
-
-- Finally, implement the abstraction but make sure you have unit tests in place to make sure you don't break anything.
-- The [Refactoring book by Martin Fowler](https://martinfowler.com/books/refactoring.html) takes over from here.
+A discussion between backend and front-end on the API contract before any development would have been an efficient use of time. 
