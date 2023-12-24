@@ -70,10 +70,21 @@ I figured:
 
 I feel I made the right decision: the team improved on what they already knew rather than struggling with completing tickets while working in an unfamiliar architecture at the same time.
 
-Whatismore: we didn't have those huge Service classes, because the team learned to avoid the anaemic domain anti-pattern as well how to apply the single responsibility principle to service classes.
+What's more: we didn't have those huge Service classes, because the team learned to avoid the anaemic domain anti-pattern as well how to apply the single responsibility principle to service classes.
 
 **TL:DR 1**: Educate your team with the knowledge and tools to refactor. Don't dump them in unknown territory.
 
 **TL:DR 2**: If you've come upon a messy codebase, your first step is to discuss improvements with the team. Not to dictate.
 
 **Note:** I just want to add: When the team member who was keen on Ports and Adapters asked why we wouldn't use it, my answer was, "When you're responsible for the consequences of the decision, you can pick any architecture you want." I think that nicely sums up the thought-process.
+
+## Conclusion
+
+**Why is the codebase a mess?**
+In the pursuit of business goals, things had to be rushed.
+
+**What can you do about it?**
+Find a part of the code that would be _valuable_ to refactor and start a discussion with your team on how to go about it.
+
+**What shouldn't you do about it?**
+Take it upon yourself to refactor bits of the project as you see fit.
