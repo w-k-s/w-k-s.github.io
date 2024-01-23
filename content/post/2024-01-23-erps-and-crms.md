@@ -12,7 +12,7 @@ meta:
 draft: false
 ---
 
-I learnt to code from YouTube, switched careers by getting a Masters Degree in Software Engineering and then started working as an Android Developer. So I didn't know all too well what ERPs and CRMs are. I mean I kinda had an idea, but couldn't figure out where one ended and the other began. The fuzzy boundary confused me.
+I learnt to code from YouTube, switched careers by attaining a Masters Degree in Software Engineering and then started working as an Android Developer. So I didn't know all too well what ERPs and CRMs are. I mean I kinda had an idea, but couldn't figure out where one ended and the other began. The fuzzy boundary confused me.
 
 With time, I think I've got a better idea so this article is meant to explain it in a way that's clear to me (i.e. I'm the dummy, not you (unless you are me)).
 
@@ -20,13 +20,13 @@ With time, I think I've got a better idea so this article is meant to explain it
 
 ## ERPs 
 
-The core functionality of an ERP (Enterprise Resource Planning) Software is that it manages business financials. This is done through a General Ledger that keeps track of money coming in and money going out. 
+The core functionality of an ERP (Enterprise Resource Planning) Software is that it manages business financials (Huge over-simplification). This is done through a General Ledger that keeps track of money coming in and money going out. 
 
 But financials here also includes assets like machinery and inventory, and tracking payments to and from vendors and customers.
 
-Typically, an ERP solution offers modules that increases the scope of what it manages. For example, a logistics module would allow it to keep track of Supply chain and feed that data directly into the accounting. 
+Typically, an ERP solution offers modules that increases the scope of what it manages. For example, a logistics module would allow it to keep track of Supply chain and feed that data directly into the ledger. 
 
--- 
+---
 
 ## CRMs
 
