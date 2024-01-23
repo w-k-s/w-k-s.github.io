@@ -28,6 +28,6 @@ I've integrated with a number of systems through SOAP Services. SOAP Services ar
 
 	- A **Binding** specifies the transport protocol that the port implements.
 
-- So to summarise: A **Service** contains **Ports**, each port implement a **Port Type** interface for different transport protocols. The service defines the **binding** for each port, which provides details about which transport protocol this particular port is implementing.
+- So to summarise: A **Service** contains **Ports**, each port implement a **Port Type** (interface) for different transport protocols. The **binding** binds the port to the transportation protocol it implements.
 
-- Finally, there's a **SOAP Action**. The SOAP Action is uniquely identifies an operation in a binding. It is typically formatted as a URL, but doesn't have to be. The header is optional, but can be used to route the request to the correct server.
+- Finally, there's a **SOAP Action**. The SOAP Action is a unique name that identifies an operation in a binding. It is typically formatted as a URL, but doesn't have to be. The SOAP Action is sent as an HTTP header. It is is optional, but can be used to route the request to the correct server or for other transportation purposes.
