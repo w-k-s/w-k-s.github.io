@@ -5,6 +5,7 @@ categories:
 - "Stories"
 comments: false
 draft: false
+toc: false
 meta:
 - date
 - categories
