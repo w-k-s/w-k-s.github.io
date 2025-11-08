@@ -87,18 +87,6 @@ After that, whenever I had time, I'd pick a screen in the booking journey to ref
 
 Getting rid of that mess felt _SO_ good! Suddenly the code became readable and easier to maintain. I just love replacing large swathes of code with a simple line or two.  The unit tests even brought to light a corner case bug though I can't remember what that was.
 
-## Key Takeaways
+## Conclusion
 
-I think this story highlights the importance of 2 things:
-
-**Investing time to come up with the right abstractions**: 
-
-This involves understanding the domain and its terminology so that you can use it correctly in the code. 
-
-When I worked in Banking, studying the ISO 20022 standard really helped me come up with better abstractions.
-
-Not all developers have worked in Banking, so I feel this story is a good one to help communicate developers the value of understanding and using domain terminology
-
-**API-First development approach**
-
-A discussion between backend and front-end on the API contract before any development would have been an efficient use of time. 
+Not the most interesting story in the world! But I just thought I'd write down my personal experience that show cases why abstraction (and more importantly, the right abstraction!) matters.

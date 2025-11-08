@@ -9,7 +9,7 @@ toc: false
 meta:
 - categories
 - date
-draft: false
+draft: true
 ---
 
 Some time back, I had a system design interview. One of the questions that I was asked was:

@@ -36,7 +36,7 @@ The Core system would use a Document Store (e.g. MongoDB) since different nomina
 
 Was this proposal implemented? Nope!
 
-I did share this proposal with the senior architect who responded very positively to it and asked me to document the finer details.
+I did share this proposal with the senior architect who received it favourably. He even asked me to document it in finer details.
 
 However, at the time, I had never heard of the "Microkernel" or "Plugin" Architecture and I thought this was a novel solution to the problem; that made me nervous. I had a habit of second-guessing myself so I didn't pursue the idea further.
 
