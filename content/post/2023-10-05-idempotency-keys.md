@@ -3,7 +3,6 @@ title: "Idempotency Keys"
 date: 2023-10-05T15:19:00+03:00
 tags:
 - "Engineering"
-- "Educational"
 comments: false
 toc: true
 tocOpen: false

@@ -3,7 +3,6 @@ title: "Distributed Microkernel Architecture"
 date: 2023-03-27T00:00:00+03:00
 tags:
 - "Engineering"
-- "Microservices"
 comments: false
 toc: false
 meta:

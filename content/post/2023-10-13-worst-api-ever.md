@@ -3,7 +3,6 @@ title: "Worst.API.Ever"
 date: 2023-10-13T17:21:00+03:00
 tags:
 - "Engineering"
-- "APIs"
 comments: false
 toc: false
 meta:

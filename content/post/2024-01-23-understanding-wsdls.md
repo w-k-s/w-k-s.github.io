@@ -3,7 +3,6 @@ title: "Understanding WSDLs"
 date: 2024-01-23T00:00:00+03:00
 categories:
 - "Engineering"
-- "Integrations"
 comments: false
 toc: false
 meta:
