@@ -50,6 +50,17 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Checkout robots.txt repository
+        uses: actions/checkout@v3
+        with:
+          repository: ai-robots-txt/ai.robots.txt
+          path: robots-repo
+
+      - name: Copy robots.txt into Hugo static folder
+        run: |
+          mkdir -p static
+          cp robots-repo/robots.txt static/robots.txt
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
